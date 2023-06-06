@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form{
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    padding: 42px;
+    text-align: center;
+}
+
+i{
+    color: palevioletred;
+    font-weight: bold;
+    font-style: normal;
+}
+
+input{
+    border: 1px solid palegoldenrod;
+    border-radius: 4px;
+    text-align: center;
+}
+
+input:hover{
+    background-color: lavender;
+    border: 2px solid palevioletred;
+}
+
+button{
+    background-color: lavender;
+    border: 2px solid palevioletred;
+    border-radius: 4px;
+    padding: 8px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: darkgray;
+}
+
+button:hover{
+    background-color: lavender;
+    font-weight: bold;
+    color: palevioletred;
+}
+
+#tabla-productos th{
+    color: palevioletred;
+    text-align: center;
+}
+
+#tabla-productos th:hover{
+    color: palegoldenrod;
+}
+
+#tabla-productos td{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
